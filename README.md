@@ -1,6 +1,7 @@
 Purpose of Reference variable
 
-to over come the draw back of non static ,creating n number of object for to access same method .....
+to over come the draw back of non static ,creating n number of object for to access same method n number of time 
+it will take memmory & performance is less .....
 
 
 Reference variable:
