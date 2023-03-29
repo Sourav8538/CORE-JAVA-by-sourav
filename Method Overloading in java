@@ -1,0 +1,29 @@
+
+
+
+class Mesenger 
+{
+	static void send(int x)
+	{
+    System.out.println("Hii");
+	}
+	static void send(String y)
+	{
+		System.out.println("Heello");
+	}
+	static void send(int x,String y)
+	{
+		System.out.println("night");
+	}
+	static void send(String y,int x)
+	{
+		System.out.println("Bye");
+	}
+	public static void main(String[] args) 
+	{
+		send(1);
+		send("hi");
+		send(10,"hii");
+		send("hii",10);
+	}
+}
