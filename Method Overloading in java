@@ -1,6 +1,4 @@
-
-
-
+**A example of method overloading in java....***
 class Mesenger 
 {
 	static void send(int x)
