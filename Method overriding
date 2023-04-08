@@ -1,0 +1,24 @@
+class Disney
+{
+	void video_streaming()
+	{
+		System.out.println("Animated Video ");
+	}
+}
+class Hotstar extends Disney
+{
+	void video_streaming()
+	{
+		super.video_streaming();
+		System.out.println("Live Video Movies ");
+	}
+}
+class  Disney_Hotstar
+{
+	public static void main(String[] args) 
+	{
+		Hotstar h1 =new Hotstar();
+		h1.video_streaming();
+
+	}
+}
