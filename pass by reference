@@ -1,0 +1,23 @@
+class Seller
+{
+ void car()
+ {
+  System.out.println("Hnda City");
+  }
+  }
+ public class Olx
+{
+public static void main(String []args)
+ {
+   Seller s1 =new Seller();
+   Buyer.need_car(s1);
+  }
+  }
+  class Buyer
+{
+ static void need_car(Seller s2)
+ {
+   s2.car();
+ }
+  }
+  
