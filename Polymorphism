@@ -1,0 +1,47 @@
+class Animal
+{
+	void noise()
+	{
+		System.out.println("Some noise");
+	}
+}
+class Cat extends Animal
+{
+	void noise()
+	{
+		System.out.println("mue mue");
+	}
+}
+class Dog extends Animal
+{
+	void noise()
+	{
+		System.out.println("bhau bhau");
+	}
+}
+class Snake extends Animal
+{
+	void noise()
+	{
+		System.out.println("HIZZ HIZZ");
+	}
+}
+class Stimulator 
+{
+	static void ansi(Animal a1)
+	{
+	a1.noise();	
+	}
+}
+class Main_105 
+{
+	public static void main(String[] args) 
+	{
+     Cat c1 = new Cat();
+	 Dog d1 = new Dog();
+	 Snake s1 = new Snake();
+	 Stimulator.ansi(c1);     
+	 Stimulator.ansi(d1);
+	 Stimulator.ansi(s1);	
+	}
+}
