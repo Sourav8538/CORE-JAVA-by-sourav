@@ -1,0 +1,36 @@
+package Exception_handling;
+
+public class Shadi {
+   static void Marraige(int age) throws Shadiexeception
+   {
+	   if (age>=18)
+	   {
+		   System.out.println("Happy marriage ");
+	   }
+	   else {
+		   throw new Shadiexeception("Not eligible for marriage");
+	
+	   }
+   }
+   public static void main(String[] args) {
+	   try{
+		   Marraige(10);
+	   }
+	   catch (Shadiexeception e){
+		   System.out.println(e.getmsg());
+	   }
+	   
+	  
+}
+}
+class Shadiexeception extends Exception
+{
+	private String msg;
+	Shadiexeception(String msg)
+	{
+		this.msg=msg;
+	}
+	public String getmsg(){
+		return msg;
+	}
+}
